@@ -11,9 +11,6 @@ namespace FirstProject
 
         private string Color
         { get; set; }
-
-        private string Brand { get; set; }
-
         private int Id { get; set; }
 
         private int speed { get; set; }
