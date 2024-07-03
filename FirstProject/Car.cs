@@ -13,5 +13,11 @@ namespace FirstProject
         { get; set; }
 
         private string Brand { get; set; }
+
+        public Car(string color , string brand)
+        {
+            this.Color = color;
+            this.Brand = brand;
+        }
     }
 }
