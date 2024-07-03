@@ -14,6 +14,9 @@ namespace FirstProject
 
         private string Brand { get; set; }
 
+        private int Id { get; set; }
+
+        private int speed { get; set; }
         public Car(string color , string brand)
         {
             this.Color = color;
