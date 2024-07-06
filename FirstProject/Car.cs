@@ -17,7 +17,6 @@ namespace FirstProject
         public Car(string color , string brand)
         {
             this.Color = color;
-            this.Brand = brand;
         }
     }
 }
