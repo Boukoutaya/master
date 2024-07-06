@@ -8,11 +8,13 @@ namespace FirstProject
 {
     public class Car
     {
-
+        private int id;
         private string Color
         { get; set; }
 
         private string Brand { get; set; }
+
+        private float kilometrage { get; set; }
 
         public Car(string color , string brand)
         {
